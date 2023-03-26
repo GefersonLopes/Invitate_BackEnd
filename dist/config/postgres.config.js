@@ -3,11 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.postgresConfig = void 0;
 exports.postgresConfig = {
     type: 'postgres',
-    host: '18.231.114.17',
-    port: 5432,
-    username: 'postgres',
-    password: '1234',
-    database: 'invitation',
+    url: 'postgres://emyahopy:eebNTI5F7XaCmjccklb65Kttj6Bps4gW@babar.db.elephantsql.com/emyahopy',
     entities: [__dirname + '/../**/*.entity.{js,ts}'],
     synchronize: true,
 };
